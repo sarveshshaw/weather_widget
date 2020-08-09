@@ -14,7 +14,7 @@ window.addEventListener('load',function(){
             console.log(position);
             long=position.coords.longitude;
             lat=position.coords.latitude;
-            var api='https://openweathermap.org/data/2.5/weather?lat=28.6128&lon=77.2311&appid=439d4b804bc8187953eb36d2a8c26a02';
+            var api='https://openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+long+'&appid=439d4b804bc8187953eb36d2a8c26a02';
 
             fetch(api)
             .then(response => {
