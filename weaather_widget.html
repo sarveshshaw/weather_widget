@@ -1,0 +1,37 @@
+<html lang="en-GB">
+    <title>
+        Weather And Clock App 
+    </title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="widget.css">
+        <script type="text/javascript" src="clockapp.js"></script>
+        <script type="text/javascript" src="weatherapp.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+            
+    </head>
+    <body onload="startTime()">
+        <div class="clocklayout">
+        <h1 class="d" id="day">day</h1> <div class="m" id="month">month</div>
+        </div>
+        <div class="clock" id="time"> time </div>
+        <div class="weather">
+        <div class="location">
+            <h1 class="timezone"></h1>
+            <div class="weather-icon"><img id="wicon" src=""  /></div>
+
+        </div>    
+        <div class="temp">
+            <div class="degreelayout">
+            <h2 class="degree"></h2>
+            <span class="degreetype"></span>
+        </div>
+        </div>
+        <div class= "templayout">
+            <h2 class="tempdesc"></h2><span class="space"></span><span class="tempdescmore" ></span>
+        </div>
+    </div>
+    </body>
+</html>
