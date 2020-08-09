@@ -1,0 +1,124 @@
+.clocklayout, .weather{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@keyframes changecolor{
+    0% {background-color: rgb(201, 39, 39);}
+    25%{background-color: rgb(235, 221, 30);}
+    50%{background-color: rgb(52, 214, 12);}
+    75%{background-color: rgb(38, 41, 209);}
+    100%{background-color: rgb(206, 51, 123);}
+}
+
+body{
+    animation-name: changecolor;
+    background: white;
+    color: white;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.clocklayout{
+    
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-inline-start: 6%;
+    
+     
+    
+}
+.d{
+    font-size: 30px;
+    margin: 10px;
+    font-family: 'Orbitron';
+}
+.m{
+    margin: 10px;
+    font-family: 'Orbitron';
+    font-size: 30px;
+}
+ 
+.clock{
+    font-size: 30px;
+    font-family: 'Orbitron';
+    letter-spacing: 7px;
+    flex-direction: column;
+    padding-inline-start: 6%;
+    color: black;
+}
+.mydetails{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+
+}
+
+.weather{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+    
+
+}
+.location , .temp{
+    height: 20vh;
+    width: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.location .comma{
+    font-size: 30px;
+    margin: 10px;
+}
+.weather-icon{
+    margin: 50px;
+}
+
+.temp{
+    flex-direction: column;
+}
+.degreelayout{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degreelayout span{
+    margin: 10px;
+    font-size: 50px;
+}
+.degree h2{
+    font-size: 60px;
+}
+.degree , .timezone{
+    font-size: 40px;
+    letter-spacing: 3px;
+    
+}
+.templayout{
+    display: flex;
+    align-items: center;
+}
+.templayout .space{
+    font-size: 30px;
+    margin: 10px;
+}
+.tempdesc ,.hummid{
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.tempdescmore{
+    
+    font-size: 30px;
+    
+}
