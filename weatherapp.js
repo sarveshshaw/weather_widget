@@ -34,7 +34,7 @@ window.addEventListener('load',function(){
                 temperaturedesc.textContent=desc;
                 comdesc.textContent=com;
                 timezone.textContent=data.name;
-                hummid.textContent="Humidity:"+data.main.humidity;
+                hummid.textContent="Humidity:"+data.main.humidity+"%";
                 country.textContent=data.sys.country;
                 gap.textContent=":";
                 comma.textContent=",";
