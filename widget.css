@@ -71,7 +71,7 @@ body{
 
 }
 .location , .temp{
-    height: 20vh;
+    height: 30vh;
     width: 50vh;
     display: flex;
     justify-content: space-around;
@@ -116,6 +116,7 @@ body{
 .tempdesc ,.hummid{
     font-size: 30px;
     letter-spacing: 4px;
+    color: black;
 }
 .tempdescmore{
     
